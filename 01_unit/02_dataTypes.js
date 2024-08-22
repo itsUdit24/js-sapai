@@ -27,3 +27,23 @@ let state;
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
+
+//object ->  key : value
+const student ={    //student is an object now
+    fullName : "Udit Pradhan",
+    age : 20,
+    cgpa : 8.2,
+    isPass : true
+};
+
+//how to access key's in object
+// 1) obj.key
+// 2) obj["key"]
+console.log(student.fullName)
+console.log(student["cgpa"])
+
+//HOW TO UPDATE A VALUE IN OBJECT
+student.age +=1;  // (OR)  student["age"] = student["age"] + 1;
+console.log(student.age) // (OR) console.log( student["age"];)
+
+
