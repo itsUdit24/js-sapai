@@ -18,7 +18,7 @@ console.log(id === anotherId); //false - as both are unique as they are symbol
 
 
 
-// Reference (Non primitive)
+// Reference (Non primitive)   data types of all np are actually functions
 
 // Array, Objects, Functions
 
@@ -33,10 +33,10 @@ let myObj = {
 } */
 
 const myFunction = function(){
-    console.log("Hello world");
+    console.log("Hello world");                     // (OBJECT) FUNCTION 
 }
 
-console.log(typeof anotherId);
+console.log(typeof anotherId);    // Symbol
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
@@ -61,3 +61,33 @@ JavaScript's dynamic typing allows for more flexibility
 but can lead to potential runtime errors if not handled carefully. 
 Static typing, on the other hand, provides better type safety at the 
 cost of some initial verbosity and strictness. */
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Stack (Primitive) primitive mein value ka copy milta hain  (stack upar)
+   Heap (Non-Primitive) non primi/ refrence mein value ka address hi mil jata hain (heap neeche)
+*/
+
+/* let myName = "Udit Pradhan"
+let anotherName = myName
+anotherName = "Newar"
+
+console.log("another name = ", anotherName); //another name =  Newar
+console.log ("myName = ", myName);           //myName =  Udit Pradhan
+*/
+
+let userOne = {
+    email: "user@gmail.com" ,
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "udit@gmail.com"
+
+console.log(userTwo.email) //udit@gmail.com
+console.log(userOne.email) //udit@gmail.com
+
+// here both changes as it is an object function and it is 
+// stored in heap memory so it gives the refrence point at once 
