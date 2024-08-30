@@ -28,5 +28,5 @@ console.log(newDate.getDay());
 newDate.toLocaleString('default', {
     weekday: "long",
     // click ctrl + space get the options. 
-    
+    //2nd day
 })
