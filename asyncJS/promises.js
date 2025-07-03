@@ -41,6 +41,7 @@ fetchData()
     console.error("Error:", error);
   });
 // Output after 2 seconds: Data fetched from server
+
 // In this example, `fetchData` returns a Promise that resolves with the fetched data after 2 seconds.
 // The `then` method is used to handle the resolved data, and `catch` is used to handle any potential errors.
 // Promises provide a cleaner and more manageable way to handle asynchronous operations compared to callbacks.
