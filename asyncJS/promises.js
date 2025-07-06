@@ -61,7 +61,6 @@ async function fetchDataAsync() {
 }   
 fetchDataAsync();
 
-
 // Output after 2 seconds: Data fetched from server
 
 
