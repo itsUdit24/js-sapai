@@ -63,7 +63,6 @@ fetchDataAsync();
 
 // Output after 2 seconds: Data fetched from server
 
-
 // In this example, the `fetchDataAsync` function is declared as `async`, allowing it to use the `await` keyword.
 // This makes the code more readable and easier to understand compared to using Promises with `then`.
 // Async/await is a modern way to handle asynchronous operations in JavaScript,
