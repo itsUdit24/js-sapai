@@ -76,4 +76,5 @@ fetchDataAsync();
 // Promises are widely used in modern JavaScript development, especially with the rise of frameworks and libraries that rely on asynchronous operations.
 // They are a fundamental part of the JavaScript ecosystem and are essential for working with APIs, databases, and other asynchronous tasks. 
 
+
 */
