@@ -1,3 +1,5 @@
+// setTimeout(fn, delay)
+
 console.log("Start");
 setTimeout(() => {
   console.log("Timeout");
